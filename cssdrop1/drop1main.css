@@ -4,7 +4,12 @@
 	-webkit-box-sizing: border-box;
 }
 
+html {
+	background-color: #353535;
+}
+
 body {
+	background-color: #fff;
 	margin: 0;
 	padding: 0;
 }
