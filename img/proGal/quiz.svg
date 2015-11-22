@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<rect fill="#93B2B2" stroke="#93B2B2" stroke-miterlimit="10" width="1024" height="768"/>
+<path fill="#FFFFFF" stroke="#91A3AF" stroke-width="4" stroke-miterlimit="10" d="M876,711.8H148c-5.5,0-10-4.5-10-10V223.1
+	c0-5.5,4.5-10,10-10H876c5.5,0,10,4.5,10,10v478.7C886,707.3,881.5,711.8,876,711.8z"/>
+<line fill="none" stroke="#91A3AF" stroke-width="4" stroke-miterlimit="10" x1="138" y1="317" x2="886" y2="317"/>
+<line fill="none" stroke="#91A3AF" stroke-width="2" stroke-miterlimit="10" x1="138" y1="413" x2="886" y2="413"/>
+<line fill="none" stroke="#91A3AF" stroke-width="2" stroke-miterlimit="10" x1="138" y1="510" x2="886" y2="510"/>
+<line fill="none" stroke="#91A3AF" stroke-width="2" stroke-miterlimit="10" x1="138" y1="608" x2="886" y2="608"/>
+<text transform="matrix(1 0 0 1 377.5327 185.792)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="72">Quiz App</text>
+<path fill="#FFFFFF" stroke="#ADADAD" stroke-miterlimit="10" d="M194.2,491h-33.2c-5.5,0-10-4.5-10-10v-37.1c0-5.5,4.5-10,10-10
+	h33.2c5.5,0,10,4.5,10,10V481C204.2,486.5,199.7,491,194.2,491z"/>
+<path fill="#FFFFFF" stroke="#ADADAD" stroke-miterlimit="10" d="M194.2,392.3h-33.2c-5.5,0-10-4.5-10-10v-37.1c0-5.5,4.5-10,10-10
+	h33.2c5.5,0,10,4.5,10,10v37.1C204.2,387.8,199.7,392.3,194.2,392.3z"/>
+<path fill="#FFFFFF" stroke="#ADADAD" stroke-miterlimit="10" d="M194.2,591h-33.2c-5.5,0-10-4.5-10-10v-37.1c0-5.5,4.5-10,10-10
+	h33.2c5.5,0,10,4.5,10,10V581C204.2,586.5,199.7,591,194.2,591z"/>
+<path fill="#FFFFFF" stroke="#ADADAD" stroke-miterlimit="10" d="M367.5,691H160.9c-5.5,0-10-4.5-10-10v-37.1c0-5.5,4.5-10,10-10
+	h206.6c5.5,0,10,4.5,10,10V681C377.5,686.5,373,691,367.5,691z"/>
+<text transform="matrix(1 0 0 1 156.7531 301.3767)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">This is an object oriented quiz program</text>
+<text transform="matrix(1 0 0 1 226.8832 374.1041)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">First choice</text>
+<text transform="matrix(1 0 0 1 226.8832 474.1038)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">Second choice</text>
+<text transform="matrix(1 0 0 1 226.8832 571.5068)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">Third choice</text>
+<text transform="matrix(1 0 0 1 156.7531 672.8055)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">Next Question</text>
+<text transform="matrix(1 0 0 1 165.8441 374.1041)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">A</text>
+<text transform="matrix(1 0 0 1 165.844 474.1035)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">B</text>
+<text transform="matrix(1 0 0 1 166.344 575.202)" fill="#C6C6C6" font-family="'MyriadPro-Regular'" font-size="36">C</text>
+</svg>

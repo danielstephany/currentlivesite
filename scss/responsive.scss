@@ -1,0 +1,97 @@
+@media only screen and (min-width: 650px) {
+.wrap-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.toggle {
+ display: none;
+}
+.navbar-top {
+	display: inline-block;
+}
+
+#nav-display ,
+.navLinks li {
+	display: inline-block;
+}
+
+#nav-display {
+	margin-right: 15px;
+	padding: 0px;
+	float: right;
+}
+
+#nav-display ul {
+	padding: 8px;
+}
+
+/* home section ************************************/
+
+.home {
+	background: url("../img/banner-m.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+/* Gallery section ************************************/
+
+.gallery-item {
+	width: 29.5%;
+	margin: 1.5%;
+}
+
+/* About section ************************************/
+
+.about {
+	padding: 0%;
+}
+
+.about-content {
+	margin: 2%;
+	width: 45%;
+	vertical-align: middle;
+}
+
+/* resume section ************************************/
+
+.resume-content {
+	padding: 0 10%;
+}
+
+ .job-description {
+	padding: 5px 5px 15px 50px;
+}
+
+/* contact section ************************************/
+
+.contact img {
+	width: 15%;
+}	
+}
+
+@media only screen and (min-width: 950px) {
+
+.wrap-container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0;
+}
+
+/* home section ***************************************/
+
+.home {
+	background: url("../img/banner-big.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+/* resume section ************************************/
+
+.resume-content {
+	padding: 0 20%;
+}
+
+}
+
+
+
