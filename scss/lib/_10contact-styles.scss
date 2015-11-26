@@ -1,0 +1,17 @@
+/* contact section ************************************/
+
+.contact {
+	background-color: #91abbd;
+	img {
+		border-radius: 50%;
+		padding: 0;
+		margin: 70px 0 0;
+		width: 35%;	
+		@media #{$media-l} {
+			width: 15%; 
+		}
+	}
+	p {
+		padding: 20px 5px 5px;
+	}
+}

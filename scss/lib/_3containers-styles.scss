@@ -1,0 +1,40 @@
+/* containers ************************************************************
+**************************************************************************/
+
+
+.main-container,
+.last-container {
+	width: 100%;
+	text-align: center;
+}
+.main-container {
+	min-height: 650px;
+}
+
+.full-container {
+	min-height: calc(100vh - 100px);
+}
+
+.main-container h1,
+.last-container h1 {
+	padding: 50px 5px 5px;
+}
+
+.last-container {
+	min-height: 550px;
+}
+
+@media #{$media-s} {
+	.wrap-container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media #{$media-l} {
+	.wrap-container {
+		max-width: 1100px;
+		margin: auto;
+	}
+}

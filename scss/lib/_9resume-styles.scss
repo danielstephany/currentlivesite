@@ -1,0 +1,67 @@
+/* resume section ********************************************************
+*************************************************************************/
+
+/* resume section ************************************/
+
+.resume {
+	background-color: #91b7bd;
+}
+
+.resume-content {
+	text-align: left;
+	@media #{$media-s} {
+		padding: 0 10%;
+	}
+	@media #{$media-l} {
+  	 	padding: 0 20%; 
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5{
+		margin: 0;
+	}
+	h3,
+	h5{
+		padding: 5px;
+	}
+	h1 {
+		font-size: 1.5em;
+		padding: 30px 5px 5px;
+	}
+	h2 {
+		font-size: 1.25em;
+		padding: 0 5px;
+	}
+	a,
+	p, 
+	h5 {
+		font-size: 1em;
+	}
+	h4 {
+		color: #dfdfdf;
+		font-size: 1.1em;
+		padding: 5px 5px 0px;
+		i {
+			color: #dfdfdf;
+		}
+	}
+}
+
+.full-width,
+.job-description {
+	padding: 5px 5px 15px;
+	margin: 0;
+}
+
+.job-description {
+	@media #{$media-s} {
+  	  padding: 5px 5px 15px 50px; 
+	}
+}
+
+.dates {
+	color: #dfdfdf;
+	padding: 5px;
+}

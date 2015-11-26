@@ -1,0 +1,79 @@
+/* nav *************************************************************
+********************************************************************/
+
+
+nav ul {
+	padding: 5px 20px;
+}
+
+header {
+	background-color: rgba(36,36,36,.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	Z-index: 1000;
+}
+
+.navbar-top {
+	height: 50px;
+	@media #{$media-s} {
+		display: inline-block;
+	}
+}
+
+.logo {
+	color: #fff;
+	margin: 10px;
+	font-size: 1.4em;
+	display: inline-block;
+}
+
+.navLinks {
+	margin: 0;
+	padding: 5px;
+	li {
+		padding: 5px 10px;
+		text-align: center;
+		@media #{$media-s} {
+			display: inline-block;
+		}
+	}
+	a {
+		color: #9a9a9a;
+	}
+	a:hover {
+		color: #fff;
+	}
+
+}
+
+#nav-display {
+	border-top: 2px solid #333;
+	display: none;
+	@media #{$media-s} {
+		display: inline-block;
+		margin-right: 15px;
+    	padding: 0px;
+    	float: right;
+	}
+	ul {
+		@media #{$media-s} {
+			padding: 8px;
+		}
+	}
+}
+
+.toggle { 
+	margin:  10px 10px 0;
+	display: inline-block;
+	float: right;
+	width: 40px;
+	@media #{$media-s} {
+    	display: none; 
+	}
+}
+
+#closeToggle {
+	display: none;
+}

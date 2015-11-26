@@ -1,0 +1,23 @@
+/* projects section ************************************/
+
+.projects {
+	background-color: #93bd91;
+	.projects h1 {
+		padding: 50px 5px 10px;
+	}
+}
+
+.gallery {
+	padding: 20px 0 20px;
+	text-align: left;
+	.gallery-item {
+		display: inline-block;
+		width: 47%;
+		margin: 1%;
+		padding: 0;
+		@media #{$media-s}{
+			width: 29.5%;
+			margin: 1.5%;
+		}
+	}
+}
