@@ -5,214 +5,213 @@
 		<title>Daniel Stephany | Web Developer | Milwaukee</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/forms.css">
 	</head>
 	<body>
-		<header>
-			<nav class="navbar">
-			    <div class="navbar-top">
-			      <a class="logo"><i>Daniel Stephany</i></a>
-			      <a class="toggle" id="menuToggle"><img src="img/icon/menu-icon.svg" alt="menu icon"></a>
-				  <a class="toggle" id="closeToggle"><img src="img/icon/close-icon.svg" alt="close menu icon"></a>
-			    </div>
-			    <div id="nav-display" class="nav-display">
-			      <ul class="navLinks">
-			        <li><a href="index.html#home">Home</a></li>
-			        <li><a href="index.html#projects">Projects</a></li>
-					<li><a href="index.html#about">About</a></li>
-			        <li><a href="index.html#resume">Resume</a></li> 
-			        <li><a href="index.html#contact">Contact</a></li> 
-			      </ul>
-			    </div>
-			</nav>
-		</header>
-		<div class="main-container">
-			<div class="wrap-container">
-			<div class="button-container">
-				<div id="form-button-1" class="button">Form 1</div>
-				<div id="form-button-2" class="button">Form 2</div>
-				<div id="form-button-3" class="button">Form 3</div>
-			</div>
-			    <form id="form-1" class="form-1" action="#" method="post">
-				<h1>Contact</h1>
-				<ul class="form-list">
-					<li>
-						<label for="name">Name:</label>
-						<input type="text" name="user_name" id="name">
-					</li>
-					<li>
-						<label for="email">Email:</label>
-						<input type="email" name="user_email" id="email">
-					</li>
-					<li>
-						<label for="subject">Subject</label>
-						<input type="text" name="user_subject" id="subject">
-					</li>
-					<li>
-						<label for="message">Message:</label>
-						<textarea name="user-message" id="message">
-						</textarea>
-					</li>
-					<li>
-						<button type="submit" id="submit">Submit</button>
-					</li>
-				</ul>
-				</form>
-				<form id="form-2" class="form-2" action="#" method="post">
-				<h1>Profile Info</h1>
-				<ul class="form-list">
-					<li class="half">
-						<label class="block-label" for="firstName">First Name:</label>
-						<input type="text" name="user_fistName" id="firstName">
-					</li>
-					<li class="half">
-						<label class="block-label" for="LastName">Last Name:</label>
-						<input type="text" name="user_lastName" id="firstName">
-					</li>
-					<li class="half">
-						<label class="block-label" for="dob">Date of Birth:</label>
-						<input type="text" name="user_birthday" id="dob">
-					</li>
-					<li class="quarter radio">
-						<label for="male">Male</label>
-						<input type="radio" name="user_gender" id="male">
-					</li>	
-					<li class="quarter radio">	
-						<label for="female">Female</label>
-						<input type="radio" name="user_gender" id="female">
-					</li>
-					<li class="half">
-						<label class="block-label" for="phone">phone:</label>
-						<input type="tel" name="user_phone" id="phone">
-					</li>
-					<li class="half">
-						<label class="block-label" for="email">Email:</label>
-						<input type="email" name="user_email" id="email">
-					</li>
-					<li class="full">
-						<label class="block-label" for="bio">About You:</label>
-						<textarea name="user-message" id="bio">
-						</textarea>
-					</li>
-					<li>
-						<button type="submit" id="submit">Submit</button>
-					</li>
-				</ul>
-				</form>
-				<form id="form-3" class="form-3">
-				    <h1>Personal Info</h1>
-				    <ul class="selection">
-						<li class="half left">
-						  <label for="pizza-style">choose your style:</label>
-						  <select name="pizza-style" id="pizza-style">
-							<option value="thin-crust">Thin crust</option>
-							<option value="deepdish">deepdish</option>
-							<option value="thick-crust">Thick crust</option>
-						  </select>
+		<div class="height-container">
+			<header>
+				<nav class="navbar">
+				    <div class="navbar-top">
+				      <a class="logo"><i>Daniel Stephany</i></a>
+				      <a class="toggle" id="menuToggle"><img src="img/icon/menu-icon.svg" alt="menu icon"></a>
+					  <a class="toggle" id="closeToggle"><img src="img/icon/close-icon.svg" alt="close menu icon"></a>
+				    </div>
+				    <div id="nav-display" class="nav-display">
+				      <ul class="navLinks">
+				        <li><a href="index.html#home">Home</a></li>
+				        <li><a href="index.html#projects">Projects</a></li>
+						<li><a href="index.html#about">About</a></li>
+				        <li><a href="index.html#resume">Resume</a></li> 
+				        <li><a href="index.html#contact">Contact</a></li> 
+				      </ul>
+				    </div>
+				</nav>
+			</header>
+			<div class="main-container">
+				<div class="wrap-container">
+				<div class="button-container">
+					<div id="form-button-1" class="button">Form 1</div>
+					<div id="form-button-2" class="button">Form 2</div>
+					<div id="form-button-3" class="button">Form 3</div>
+				</div>
+				    <form id="form-1" class="form-1" action="#" method="post">
+					<h1>Contact</h1>
+					<ul class="form-list">
+						<li>
+							<label for="name">Name:</label>
+							<input type="text" name="user_name" id="name">
 						</li>
-						<li class="half left">
-						  <label for="size">Pick your size:</label>
-						  <select name="size" id="size">
-							<option value="personal">personal</option>
-							<option value="small">small</option>
-							<option value="medium">medium</option>
-							<option value="large">large</option>
-						  </select>
+						<li>
+							<label for="email">Email:</label>
+							<input type="email" name="user_email" id="email">
 						</li>
-						<li class="half left">
-						  <label for="sauce">Pick your sauce:</label>
-						  <select name="sauce" id="sauce">
-							<option value="marinara">Marinara</option>
-							<option value="Hummus">Hummus</option>
-							<option value="bbq">BBQ</option>
-							<option value="pesto">Pesto</option>
-						  </select>
+						<li>
+							<label for="subject">Subject</label>
+							<input type="text" name="user_subject" id="subject">
+						</li>
+						<li>
+							<label for="message">Message:</label>
+							<textarea name="user-message" id="message">
+							</textarea>
+						</li>
+						<li>
+							<button type="submit" id="submit">Submit</button>
 						</li>
 					</ul>
-					<fieldset>
-					<legend>Cheese</legend>
-					<ul class="toppings">
-						<li class="quarter">
-							<label for="mozzarella">Mozzarella</label>
-							<input type="checkbox" name="mazzarella" id="mozzarella">
+					</form>
+					<form id="form-2" class="form-2" action="#" method="post">
+					<h1>Profile Info</h1>
+					<ul class="form-list">
+						<li class="half">
+							<label class="block-label" for="firstName">First Name:</label>
+							<input type="text" name="user_fistName" id="firstName">
 						</li>
-						<li class="quarter">
-							<label for="provolone">Provolone</label>
-							<input type="checkbox" name="provolone" id="provolone">
+						<li class="half">
+							<label class="block-label" for="LastName">Last Name:</label>
+							<input type="text" name="user_lastName" id="firstName">
 						</li>
-						<li class="quarter">
-							<label for="cheddar">Cheddar</label>
-							<input type="checkbox" name="cheddar" id="cheddar">
+						<li class="half">
+							<label class="block-label" for="dob">Date of Birth:</label>
+							<input type="text" name="user_birthday" id="dob">
 						</li>
-						<li class="quarter right-float">
-							<label for="colby">Colby</label>
-							<input type="checkbox" name="colby" id="colby">
+						<li class="quarter radio">
+							<label for="male">Male</label>
+							<input type="radio" name="user_gender" id="male">
+						</li>	
+						<li class="quarter radio">	
+							<label for="female">Female</label>
+							<input type="radio" name="user_gender" id="female">
 						</li>
-					</ul>
-					</fieldset>
-					<fieldset>
-					<legend>Meat</legend>
-					<ul class="toppings group">
-						<li class="quarter">
-							<label for="sausage">Sausage</label>
-							<input type="checkbox" name="sausage" id="sausage">
+						<li class="half">
+							<label class="block-label" for="phone">phone:</label>
+							<input type="tel" name="user_phone" id="phone">
 						</li>
-						<li class="quarter">
-							<label for="bacon">Bacon</label>
-							<input type="checkbox" name="bacon" id="bacon">
+						<li class="half">
+							<label class="block-label" for="email">Email:</label>
+							<input type="email" name="user_email" id="email">
 						</li>
-						<li class="quarter">
-							<label for="pepperoni">Pepperoni</label>
-							<input type="checkbox" name="pepperoni" id="pepperoni">
+						<li class="full">
+							<label class="block-label" for="bio">About You:</label>
+							<textarea name="user-message" id="bio">
+							</textarea>
 						</li>
-						<li class="quarter right-float">
-							<label for="turky">Turky</label>
-							<input type="checkbox" name="turky" id="turky">
-						</li>
-						<li class="half right-float">
-							<label for="canadian-bacon">Canadian Bacon</label>
-							<input type="checkbox" name="canadian_bacon" id="canadian-bacon">
+						<li>
+							<button type="submit" id="submit">Submit</button>
 						</li>
 					</ul>
-					</fieldset>
-					<fieldset>
-					<legend>Fruit and Veggies</legend>
-					<ul class="toppings">
-						<li class="quarter">
-							<label for="onion">Onion</label>
-							<input type="checkbox" name="onion" id="onion">
-						</li>
-						<li class="quarter">
-							<label for="cheddar">Potato</label>
-							<input type="checkbox" name="potato" id="potato">
-						</li>
-						<li class="quarter">
-							<label for="olive">Olive</label>
-							<input type="checkbox" name="olive" id="olive">
-						</li>
-						<li class="quarter right-float">
-							<label for="spinach">Spinach</label>
-							<input type="checkbox" name="spinach" id="spinach">
-						</li>
-						<li class="quarter">
-							<label for="pineapple">Pineapple</label>
-							<input type="checkbox" name="pineapple" id="pineapple">
-						</li>
-						<li class="quarter">
-							<label for="tomato">Tomato</label>
-							<input type="checkbox" name="tomato" id="tomato">
-						</li>
-						<li class="half right-float">
-							<label for="green-pepper">Green Pepper</label>
-							<input type="checkbox" name="Green_Pepper" id="green-pepper">
-						</li>
-					</ul>
-					</fieldset>
-						<button type="submit" id="submit">Place Order</button>
-				</form>
+					</form>
+					<form id="form-3" class="form-3">
+					    <h1>Personal Info</h1>
+					    <ul class="selection">
+							<li class="half left">
+							  <label for="pizza-style">choose your style:</label>
+							  <select name="pizza-style" id="pizza-style">
+								<option value="thin-crust">Thin crust</option>
+								<option value="deepdish">deepdish</option>
+								<option value="thick-crust">Thick crust</option>
+							  </select>
+							</li>
+							<li class="half left">
+							  <label for="size">Pick your size:</label>
+							  <select name="size" id="size">
+								<option value="personal">personal</option>
+								<option value="small">small</option>
+								<option value="medium">medium</option>
+								<option value="large">large</option>
+							  </select>
+							</li>
+							<li class="half left">
+							  <label for="sauce">Pick your sauce:</label>
+							  <select name="sauce" id="sauce">
+								<option value="marinara">Marinara</option>
+								<option value="Hummus">Hummus</option>
+								<option value="bbq">BBQ</option>
+								<option value="pesto">Pesto</option>
+							  </select>
+							</li>
+						</ul>
+						<fieldset>
+						<legend>Cheese</legend>
+						<ul class="toppings">
+							<li class="quarter">
+								<label for="mozzarella">Mozzarella</label>
+								<input type="checkbox" name="mazzarella" id="mozzarella">
+							</li>
+							<li class="quarter">
+								<label for="provolone">Provolone</label>
+								<input type="checkbox" name="provolone" id="provolone">
+							</li>
+							<li class="quarter">
+								<label for="cheddar">Cheddar</label>
+								<input type="checkbox" name="cheddar" id="cheddar">
+							</li>
+							<li class="quarter right-float">
+								<label for="colby">Colby</label>
+								<input type="checkbox" name="colby" id="colby">
+							</li>
+						</ul>
+						</fieldset>
+						<fieldset>
+						<legend>Meat</legend>
+						<ul class="toppings group">
+							<li class="quarter">
+								<label for="sausage">Sausage</label>
+								<input type="checkbox" name="sausage" id="sausage">
+							</li>
+							<li class="quarter">
+								<label for="bacon">Bacon</label>
+								<input type="checkbox" name="bacon" id="bacon">
+							</li>
+							<li class="quarter">
+								<label for="pepperoni">Pepperoni</label>
+								<input type="checkbox" name="pepperoni" id="pepperoni">
+							</li>
+							<li class="quarter right-float">
+								<label for="turky">Turky</label>
+								<input type="checkbox" name="turky" id="turky">
+							</li>
+							<li class="half right-float">
+								<label for="canadian-bacon">Canadian Bacon</label>
+								<input type="checkbox" name="canadian_bacon" id="canadian-bacon">
+							</li>
+						</ul>
+						</fieldset>
+						<fieldset>
+						<legend>Fruit and Veggies</legend>
+						<ul class="toppings">
+							<li class="quarter">
+								<label for="onion">Onion</label>
+								<input type="checkbox" name="onion" id="onion">
+							</li>
+							<li class="quarter">
+								<label for="cheddar">Potato</label>
+								<input type="checkbox" name="potato" id="potato">
+							</li>
+							<li class="quarter">
+								<label for="olive">Olive</label>
+								<input type="checkbox" name="olive" id="olive">
+							</li>
+							<li class="quarter right-float">
+								<label for="spinach">Spinach</label>
+								<input type="checkbox" name="spinach" id="spinach">
+							</li>
+							<li class="quarter">
+								<label for="pineapple">Pineapple</label>
+								<input type="checkbox" name="pineapple" id="pineapple">
+							</li>
+							<li class="quarter">
+								<label for="tomato">Tomato</label>
+								<input type="checkbox" name="tomato" id="tomato">
+							</li>
+							<li class="half right-float">
+								<label for="green-pepper">Green Pepper</label>
+								<input type="checkbox" name="Green_Pepper" id="green-pepper">
+							</li>
+						</ul>
+						</fieldset>
+							<button type="submit" id="submit">Place Order</button>
+					</form>
+				</div>
 			</div>
 		</div>
 		<footer class="footer">
