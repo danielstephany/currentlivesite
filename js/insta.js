@@ -1,8 +1,7 @@
-var gallery =  document.getElementById("instaGallery");
-var nextUrl = "access token goes here";
+var gallery =  document.getElementById("gallery");
+var nextUrl = "https://api.instagram.com/v1/users/2239880311/media/recent/?access_token=2239880311.7350cb7.73ef3c9421df40b6b3563e69228f61ee&count=10";
 
 var ajax = function(next) {
-  previous = next;
   $.ajax({
       type: "GET",
       dataType: "jsonp",
@@ -10,17 +9,19 @@ var ajax = function(next) {
       url: next,
       success: function(data) {        
         for(var i = 0; i < data.data.length; i++) {
-          for(var p = 0; p < data.data[i].tags.length; p++) { 
-            if(data.data[i].tags[p].toLowerCase() === "yoga") {
               var toHtml = "<a href='" + data.data[i].images.standard_resolution.url + "'><img src='" + data.data[i].images.low_resolution.url + "'></a>";
               var list = document.createElement("li");
               list.className = "content";
               list.innerHTML = toHtml;
               gallery.appendChild(list)
-            }
-          } //second for loop
         } //first for loop
         nextUrl = data.pagination.next_url;
+        if (nextUrl === undefined) {
+          $("#next").hide();
+        } else {
+          $("#next").show();
+        }
+        light();
       } //success function
     });
 };
@@ -32,6 +33,23 @@ $("#next").click(function() {
 });
 
 
+var $overlay = $('<div id="overlay"></div>');
+var $img = $("<img>");
+
+$overlay.append($img);
+$("body").append($overlay);
+
+var light = function() {
+  $("#gallery a").click(function(event) {
+    event.preventDefault();
+    var href = $(this).attr("href");
+    $img.attr("src", href);
+    $overlay.show();
+  })  
+  $overlay.click(function() {
+    $(this).hide();
+  })  
+}
 
 
 
