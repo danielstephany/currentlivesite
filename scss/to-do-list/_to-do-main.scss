@@ -1,0 +1,66 @@
+/* to do list *********************************************
+**********************************************************/
+
+.to-do-list {
+	background-color: #8caa8f;
+	padding-top: 100px;
+	.button {
+		display: inline-block;
+		min-width: 100px;
+		min-height: 35px;
+		margin: 5px;
+		padding: 9px;
+		background-color: #fff;
+		border-radius: 5px;
+		text-align: center;
+		p {
+			color: #6b6b6b;
+			padding: 0;
+		}
+	}
+}
+
+.to-do-wrap {
+	max-width: 800px;
+	width: 100%;
+	padding: 0;
+	margin: auto;
+}
+
+.input-container {
+	min-height: 100px;
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	input[type=text] {
+		display: inline-block;
+		width: 100%;
+	}
+	textarea {
+		display: inline-block;
+		width: 100%;
+		min-height: 50px;
+	}
+	h2 {
+		padding-top: 5px;
+	}
+}
+
+.to-do-list-container {
+	border: 2px solid #fff;
+	border-radius: 8px;
+	min-height: 500px;
+	margin-top: 20px;
+	padding: 5px;
+	li{
+		display: inline-block;
+		border-bottom: 1px solid #fff;
+		width: 95%;
+		margin: 5px auto;
+		text-align: left;
+		p {
+			padding: 5px 0;
+		}
+	}
+}
+
