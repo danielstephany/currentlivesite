@@ -1,0 +1,16 @@
+ {
+	"name": "Eight-Angle Pose",
+    "id": "eightangle",
+    "type": "armbalance",
+    "img": "img/yoga/armbalance/eightangle.jpg",
+	"steps": [
+		"1. Stand in Tadasana (Mountain Pose), with your feet separated a bit wider than usual. Exhale, bend forward to Uttanasana (Standing Forward Bend), press your hands to the floor outside your feet. Then with your knees slightly bent, slip your right arm to the inside and then behind your right leg, and finally press the hand on the floor just outside your right foot. Work your right arm across the back of the right knee, until the knee is high up on the back of your right shoulder.",
+		"2. Brace your shoulder against the knee and slide your left foot to the right. Cross the left ankle in front of the right and hook the ankles. Lean slightly to the left, taking more weight on your left arm, and begin to lift your feet a few inches off the floor.",
+		"3. With the right leg supported on the shoulder, exhale and bend your elbows. Lean your torso forward and lower it toward parallel to the floor; at the same time, straighten your knees and extend your legs out to the right, parallel to the floor (and perpendicular to your torso). Squeeze your upper right arm between your thighs. Use that pressure to help twist your torso to the left. Keep your elbows in close to the torso. Look at the floor.",
+		"4. Hold for 30 seconds to a minute. Then straighten your arms slowly, lift your torso back to upright, bend your knees, unhook your ankles, and return your feet to the floor. Stand back and rest in Uttanasana for a few breaths. Then repeat the pose for the same length of time to the left."
+	],
+	"benifits": [
+		"Strengthens arms and wrists",
+		"Tones the abdominal muscles"
+	]
+ }

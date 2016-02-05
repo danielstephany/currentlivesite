@@ -1,0 +1,70 @@
+{
+	"exercises": [
+    	{
+ 	"name": "Burpee",
+ 	"id": "burpee",
+      "type": "full body",
+     	"img": "img/hiit/burpee.jpg"
+      },
+      {
+      "name": "Close grip pushups",
+      "id": "close-grip-pushups",
+      "type": "arms chest core",
+      "img": "img/hiit/close-grip-pushups.jpg"
+      },
+      {
+      "name": "Dips",
+      "id": "dip",
+      "type": "arms",
+      "img": "img/hiit/dip.jpg"
+      },
+      {
+      "name": "Bridge",
+      "id": "bridge",
+      "type": "glutes",
+      "img": "img/hiit/bridge.jpg"
+      },
+      {
+      "name": "Jump Squats",
+      "id": "jump-squats",
+      "type": "legs core",
+      "img": "img/hiit/jump-squats.jpg"
+      },
+      {
+      "name": "Pistol Squats",
+      "id": "pistol-squat",
+      "type": "legs core",
+      "img": "img/hiit/pistol-squat.jpg"
+      },
+      {
+      "name": "Plank",
+      "id": "plank",
+      "type": "core",
+      "img": "img/hiit/plank.jpg"
+      },
+      {
+      "name": "Prone back extension",
+      "id": "prone-back-extension",
+      "type": "core",
+      "img": "img/hiit/prone-back-extension.jpg"
+      },
+      {
+      "name": "Pullups",
+      "id": "pullup",
+      "type": "arms back",
+      "img": "img/hiit/pullup.jpg"
+      },
+      {
+      "name": "Pushups",
+      "id": "pushups",
+      "type": "arms chest",
+      "img": "img/hiit/pushups.jpg"
+      },
+      {
+      "name": "Rollout",
+      "id": "rollout",
+      "type": "core",
+      "img": "img/hiit/rollout.jpg"
+      }
+   ]
+}

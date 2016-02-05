@@ -1,0 +1,14 @@
+{
+	"name": "Plank",
+    "id": "plank",
+    "type": "core",
+    "img": "img/hiit/plank.jpg",
+	"steps": [
+		"1. Being face down resting your weight on your forearms and toes and pull your abs in tight.",
+		"2. Maintain a hold where your body is in a straight line from shoulders to heels for as long as possible."
+		],
+	"benifits": [
+		"Reduce Back Pain",
+		"Improve Your Balance and Posture"
+	]
+}

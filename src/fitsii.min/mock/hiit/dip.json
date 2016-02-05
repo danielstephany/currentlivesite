@@ -1,0 +1,17 @@
+{
+	"name": "Dips",
+    "id": "dip",
+    "type": "arms",
+    "img": "img/hiit/dip.jpg",
+	"steps": [
+		"1. Hoist yourself up onto some bars or chairs will also work, chair or step as long as it is stable and secure to take your body weight.",
+		"2. Hands should be shoulder width apart fingers facing forward and elbows pointing backwards with a slight bend in the elbows.",
+		"3. Legs extended out in front of you with a slight bend in the knee.",
+		"4. Slowly lower your body until your shoulder joints are below your elbows.",
+		"5. Push back up until your elbows are nearly straight but do not lock them out."
+		],
+	"benifits": [
+		"Builds upper body mass.",
+		"Improves your lockout strength of your elbows"
+	]
+}

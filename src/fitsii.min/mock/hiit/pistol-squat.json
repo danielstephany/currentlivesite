@@ -1,0 +1,18 @@
+{
+	"name": "Pistol Squats",
+    "id": "pistol-squat",
+    "type": "legs core",
+    "img": "img/hiit/pistol-squat.jpg",
+	"steps": [
+		"1. Begin with arms extended out in front of your body.",
+		"2. Balance on one leg with opposite leg extended straight in front as high as possible.",
+		"3. Squat down as far as possible while keeping the elevated leg off the floor. Ensure your back is kept straight and the supporting knee pointed in the same direction as the supporting foot.",
+		"4. Raise body back up to original position until supporting led is straight.",
+		"5. Repeat for desired reps and switch leg."
+		],
+	"benifits": [
+		"Strengthens legs and core",
+		"Toning",
+		"Improved balance"
+	]
+}

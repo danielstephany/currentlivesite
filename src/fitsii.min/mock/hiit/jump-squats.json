@@ -1,0 +1,17 @@
+{
+	"name": "Jump Squats",
+    "id": "jump-squats",
+    "type": "legs core",
+    "img": "img/hiit/jump-squats.jpg",
+	"steps": [
+		"1. Stand with your feet shoulder-width apart.",
+		"2. Start by doing a regular squat, then engage your core and jump up explosively.",
+		"3. When you land, lower your body back into the squat position to complete one rep. Land as quietly as possible, which requires control."
+		],
+	"benifits": [
+		"Weight loss",
+		"Helps improve balance",
+		"Muscle Gain",
+		"Body Toning"
+	]
+}

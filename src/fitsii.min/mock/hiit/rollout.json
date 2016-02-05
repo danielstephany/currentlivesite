@@ -1,0 +1,16 @@
+{
+	"name": "Rollout",
+    "id": "rollout",
+    "type": "core",
+    "img": "img/hiit/rollout.jpg",
+	"steps": [
+		"1. Grip the ab wheel or bar with the hands and start in a standing position with the wheel by your feet and arms and legs straight.",
+		"2. Slowly roll the wheel forward in a controlled manner, stretching out the torso as far as you can.",
+		"3. Stop when fully stretched and pause for a moment.",
+		"4. Return to the starting position and repeat."
+		],
+	"benifits": [
+		"Reduce your potential for back pain",
+		"Increase your core stability"
+	]
+}

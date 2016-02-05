@@ -1,0 +1,16 @@
+{
+	"name": "Pullups",
+    "id": "pullup",
+    "type": "arms back",
+    "img": "img/hiit/pullup.jpg",
+	"steps": [
+		"1. Grasp the bar with an overhand grip and begin from a dead hang (arms fully extended, about shoulder width apart).",
+		"2. Pull up toward the bar by bending at the arms and clear it with your chin.",
+		"3. Pause at the top of the exercise and then lower back down under control.",
+		"4. Return to the starting position and repeat."
+		],
+	"benifits": [
+		"Grip Strength",
+		"Strengthens back muscles"
+	]
+}

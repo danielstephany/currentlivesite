@@ -1,0 +1,15 @@
+ {
+	"name": "Scale Pose",
+    "id": "scale-pose",
+    "type": "armbalance",
+    "img": "img/yoga/armbalance/scale-pose.jpg",
+	"steps": [
+		"1. Perform Padmasana (Lotus Pose). Place the palms on the floor beside the hips.",
+		"2. Exhale, push the hands against the floor, contract the abdominal muscles, and lift the legs and buttocks away from the floor.",
+		"3. Hold suspended for 10 to 15 seconds. Then lower your legs and buttocks on an exhalation, change the cross of the legs, and repeat for the same length of time."
+	],
+	"benifits": [
+		"Strengthens arms and wrists",
+		"Tones the abdominal muscles"
+	]
+ }

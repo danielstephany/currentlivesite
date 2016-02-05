@@ -1,0 +1,16 @@
+{
+	"name": "Pushups",
+    "id": "pushups",
+    "type": "arms chest",
+    "img": "img/hiit/pushups.jpg",
+	"steps": [
+		"1. Lie face down on the floor with hands slightly wider than shoulder width.",
+		"2. Push down on the floor with the hands and raise the body up by extending the arms.",
+		"3. Lower the body back down to the floor by bending at the arms and repeat."
+		],
+	"benifits": [
+		"Protect Your Shoulders from Injury",
+		"Improves Your Posture",
+		"Prevents Lower Back Injuries"
+	]
+}

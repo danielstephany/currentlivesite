@@ -1,0 +1,27 @@
+
+	{
+		"articals": 
+        [
+        	{
+        		"title": "A Diet for Better Energy",
+                "author": "Diana Rodriguez",
+                "id": "a-diet-for-better-energy",
+                "age": 1,
+                "snippet": "Complex carbs are key for sustained energy throughout the day, while too many sugary snacks can lead to energy crashes. Find out which foods you need for round-the-clock energy."
+             },
+            {
+            	"title": "Your Diet, Your Health",
+                "author": "Diana Rodriguez",
+            	"id": "your-diet-your-health",
+             	"age": 2,
+             	"snippet": "Nutrition is essential not only for life, but for a healthy life. Learn about the connection between what you eat and how you feel."
+             },
+            {
+            	"title": "Good Fats, Bad Fats",
+            	"id": "good-fats-bad-fats",
+                "author": "Connie Brichford",
+             	"age": 3,
+             	"snippet": "Learn which fats are good for you and which ones to avoid."
+             }
+		]
+	}

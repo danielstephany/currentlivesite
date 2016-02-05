@@ -1,0 +1,65 @@
+{
+	"poses": [
+ 	{
+ 		"name": "Crane Pose",
+ 		"id": "crane",
+      	"type": "armbalance",
+     	"img": "img/yoga/armbalance/Crane-Pose.jpg"
+      },
+      {
+         "name": "Eight-Angle Pose",
+         "id": "eightangle",
+         "type": "armbalance",
+         "img": "img/yoga/armbalance/eightangle.jpg"
+      },
+      {
+         "name": "Firefly Pose",
+         "id": "firefly",
+         "type": "armbalance",
+         "img": "img/yoga/armbalance/fireflypose.jpg"
+      },
+      {
+         "name": "Scale Pose",
+         "id": "scale-pose",
+         "type": "armbalance",
+         "img": "img/yoga/armbalance/scale-pose.jpg"
+      },
+      {
+         "name": "Side Crow",
+         "id": "side-crow",
+         "type": "armbalance",
+         "img": "img/yoga/armbalance/side-crow.jpg"
+      },
+      {
+         "name": "Bridge Pose",
+         "id": "bridge-pose",
+         "type": "backbend",
+         "img": "img/yoga/backbend/bridge-pose.jpg"
+      },
+      {
+         "name": "Camel Pose",
+         "id": "camel-pose",
+         "type": "backbend",
+         "img": "img/yoga/backbend/camel-pose.jpg"
+      },
+      {
+         "name": "Cobra Pose",
+         "id": "cobra-pose",
+         "type": "backbend",
+         "img": "img/yoga/backbend/cobra-pose.jpg"
+      },
+      {
+         "name": "Upward Bow",
+         "id": "upward-bow",
+         "type": "backbend",
+         "img": "img/yoga/backbend/upward-bow.jpg"
+      },
+      {
+         "name": "Upward Facing Dog",
+         "id": "upward-facing-dog",
+         "type": "backbend",
+         "img": "img/yoga/backbend/upward-facing-dog.jpg"
+      }
+   ]
+}
+     

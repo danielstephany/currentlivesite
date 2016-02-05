@@ -1,0 +1,17 @@
+{
+	"name": "Burpee",
+    "id": "burpee",
+    "type": "full body",
+    "img": "img/hiit/burpee.jpg",
+	"steps": [
+		"1. Begin in a standing position.",
+		"2. Drop into a squat position with your hands on the ground. (count 1)",
+		"3. Kick your feet back, while keeping your arms extended, then do a push up. (count 2)",
+		"4. Immediately return your feet to the squat position. (count 3)",
+		"5. Jump up from the squat position (count 4)"
+		],
+	"benifits": [
+		"They boost your endurance.",
+		"They work your entire body."
+	]
+}

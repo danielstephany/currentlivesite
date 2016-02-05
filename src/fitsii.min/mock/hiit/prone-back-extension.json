@@ -1,0 +1,15 @@
+{
+	"name": "Prone back extension",
+    "id": "prone-back-extension",
+    "type": "core",
+    "img": "img/hiit/prone-back-extension.jpg",
+	"steps": [
+		"1. Lie down on your stomach with the arms extended so that they are parallel to the floor, palms down.",
+		"2. Slowly lift your arms, upper body and legs from the floor and hold the extension for 3-5 seconds.",
+		"3. Return to the starting position and repeat for desired reps."
+		],
+	"benifits": [
+		"Increase your ability to coordinate movement through your lower back.",
+		"Leads to better overall back posture."
+	]
+}
