@@ -1,0 +1,38 @@
+
+[
+	{
+		"name": "Mud Creek Coffee",
+		"id": "mud-creek",
+		"img": "img/proGal/mud-creek-logo.svg"
+	},
+	{
+		"name": "Fitsii",
+		"id": "fitsii",
+		"img": "img/proGal/fitsii.svg"
+	},
+	{
+		"name": "Ritualforms",
+		"id": "ritualforms",
+		"img": "img/proGal/ritualforms.svg"
+	},
+	{
+		"name": "Stephanys Woodworking",
+		"id": "stephanys-woodworking",
+		"img": "img/proGal/stephanys-woodworking.svg"
+	},
+	{
+		"name": "Quiz App",
+		"id": "quiz-app",
+		"img": "img/proGal/quiz.svg"
+	},
+	{
+		"name": "InstaGallery",
+		"id": "instagallery",
+		"img": "img/proGal/instaGallery.svg"
+	},
+	{
+		"name": "Forms",
+		"id": "forms",
+		"img": "img/proGal/forms.svg"
+	}
+]

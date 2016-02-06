@@ -16,7 +16,7 @@
 			<header>
 				<nav class="navbar">
 				    <div class="navbar-top">
-				      <a class="logo"><i>Daniel Stephany</i></a>
+				      <a href="index.html" class="logo"><i>Daniel Stephany</i></a>
 				      <a class="toggle" id="menuToggle"><img src="img/icon/menu-icon.svg" alt="menu icon"></a>
 					  <a class="toggle" id="closeToggle"><img src="img/icon/close-icon.svg" alt="close menu icon"></a>
 				    </div>
@@ -39,47 +39,9 @@
 					</div>
 				</div>
 			</div>
-			<div id="projects" class="projects main-container">
+			<div ng-app="mainApp" id="projects" class="projects main-container">
 				<div class="wrap-container">
-					<h1>Projects</h1>
-					<p>These are some of the projects I have built. Check them out.</p>
-					<div class="gallery">
-						<div class="gallery-item">
-							<a href="mud-creek-min/index.html">
-							<img src="img/proGal/mud-creek-logo.svg" alt="mud creek project link">
-							</a>
-						</div>
-						<div class="gallery-item">
-							<a href="fitsii.min/index.html">
-							<img src="img/proGal/fitsii.svg" alt="fitsii link">
-							</a>
-						</div>
-						<div class="gallery-item">
-							<a href="http://www.ritualforms.com">
-							<img src="img/proGal/ritualforms.svg" alt="ritualforms link">
-							</a>
-						</div>
-						<div class="gallery-item">
-							<a href="http://www.stephanyswoodworking.com">
-							<img src="img/proGal/stephanys-woodworking.svg" alt="stephanys woodworking link">
-							</a>
-						</div>
-						<div class="gallery-item">
-							<a href="quiz.html">
-							<img src="img/proGal/quiz.svg" alt="Quiz link">
-							</a>
-						</div>
-						<div class="gallery-item">
-							<a href="instagallery.html">
-							<img src="img/proGal/instaGallery.svg" alt="gallery populated by instagram link">
-							</a>
-						</div>	
-						<div class="gallery-item">
-							<a href="forms.html">
-							<img src="img/proGal/forms.svg" alt="sample forms link">
-							</a>
-						</div>
-					</div>
+					<div ng-view></div>
 				</div>
 			</div>
 			<div id="about" class="about main-container">
@@ -145,8 +107,10 @@
 			<P>&copy; 2015 Daniel Stephany</P>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
 		<script src="js/app.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

@@ -521,12 +521,10 @@ ul {
     width: 100%;
     margin: 0;
     padding: 0; } }
-
 @media only screen and (min-width: 950px) {
   .wrap-container {
     max-width: 1100px;
     margin: auto; } }
-
 /* nav *************************************************************
 ********************************************************************/
 nav ul {

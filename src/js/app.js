@@ -1,3 +1,4 @@
+
 var main = function() {
 	$(".toggle").click(function() {
 		$("#nav-display").slideToggle( "slow" );
@@ -14,4 +15,3 @@ var main = function() {
 };
 
 $("document").ready(main);
-
