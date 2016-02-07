@@ -21,3 +21,85 @@
 		}
 	}
 }
+
+/* project discription container ***********************/
+
+.project-description {
+	padding: 100px 5px 5px;
+	h1{
+		padding: 10px 0 20px;
+	}
+	.img-container {
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		padding: 10px;
+		text-align: center;
+		vertical-align: middle;
+		@media #{$media-s}{
+			display: inline-block;
+			width: 48%;
+			img {
+				border-radius: 15px;
+			}
+		}
+	}
+	.button {
+		display: block;
+		width: 90%;
+		height: 40px;
+		text-align: center;
+		color: #353535;
+		padding: 10px 0;
+		margin: 5px auto;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		box-shadow: 0 0 3px #fff inset;
+		@media #{$media-s}{
+			display: inline-block;
+			width: 45%;
+			margin: 1%
+		}
+		&:hover {
+			box-shadow: 0 0 10px #fff inset;
+		}
+		span{
+			color: #fff;
+		}
+
+	}
+
+	.button-left {
+		@media #{$media-s}{
+		float: left;
+		}
+	}
+	.button-right {
+		@media #{$media-s}{
+		float: right;
+		}
+	}
+	.description {
+		text-align: left;
+		padding: 5px;
+		margin: 0;		
+		@media #{$media-s}{
+			display: inline-block;
+			width: 48%;
+			vertical-align: middle;
+		}
+		@media #{$media-l}{
+			padding: 5px 25px 5px 5px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+

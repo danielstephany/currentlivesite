@@ -490,6 +490,11 @@ ul {
   margin: 0;
   padding: 0; }
 
+.clear:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /* containers ************************************************************
 **************************************************************************/
 .height-container {
@@ -610,15 +615,16 @@ header {
 /* home section ***************************************************
 *******************************************************************/
 .home {
-  background: url("../img/banner-small.jpg") no-repeat center center;
-  background-size: cover; }
+  position: relative;
+  background: url("../img/banner-small.jpg") no-repeat center;
+  background-size: auto cover; }
   @media only screen and (min-width: 650px) {
     .home {
-      background: url("../img/banner-m.jpg") no-repeat center center;
+      background: url("../img/banner-m.jpg") no-repeat center;
       background-size: cover; } }
   @media only screen and (min-width: 950px) {
     .home {
-      background: url("../img/banner-big.jpg") no-repeat center center;
+      background: url("../img/banner-big.jpg") no-repeat center;
       background-size: cover; } }
 
 .home-content {
@@ -649,6 +655,63 @@ header {
       .gallery .gallery-item {
         width: 29.5%;
         margin: 1.5%; } }
+
+/* project discription container ***********************/
+.project-description {
+  padding: 100px 5px 5px; }
+  .project-description h1 {
+    padding: 10px 0 20px; }
+  .project-description .img-container {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle; }
+    @media only screen and (min-width: 650px) {
+      .project-description .img-container {
+        display: inline-block;
+        width: 48%; }
+        .project-description .img-container img {
+          border-radius: 15px; } }
+  .project-description .button {
+    display: block;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    color: #353535;
+    padding: 10px 0;
+    margin: 5px auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #fff inset; }
+    @media only screen and (min-width: 650px) {
+      .project-description .button {
+        display: inline-block;
+        width: 45%;
+        margin: 1%; } }
+    .project-description .button:hover {
+      box-shadow: 0 0 10px #fff inset; }
+    .project-description .button span {
+      color: #fff; }
+  @media only screen and (min-width: 650px) {
+    .project-description .button-left {
+      float: left; } }
+  @media only screen and (min-width: 650px) {
+    .project-description .button-right {
+      float: right; } }
+  .project-description .description {
+    text-align: left;
+    padding: 5px;
+    margin: 0; }
+    @media only screen and (min-width: 650px) {
+      .project-description .description {
+        display: inline-block;
+        width: 48%;
+        vertical-align: middle; } }
+    @media only screen and (min-width: 950px) {
+      .project-description .description {
+        padding: 5px 25px 5px 5px; } }
 
 /* About ***********************************************************
 *******************************************************************/

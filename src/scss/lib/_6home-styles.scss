@@ -2,14 +2,15 @@
 *******************************************************************/
 
 .home {
-	background: url("../img/banner-small.jpg") no-repeat center center;
-	background-size: cover;
+	position: relative;
+	background: url("../img/banner-small.jpg") no-repeat center;
+	background-size: auto cover;
 	@media #{$media-s}{
-		background: url("../img/banner-m.jpg") no-repeat center center;
+		background: url("../img/banner-m.jpg") no-repeat center;
 		background-size: cover;			
 	}
 	@media #{$media-l}{
-		background: url("../img/banner-big.jpg") no-repeat center center;
+		background: url("../img/banner-big.jpg") no-repeat center;
 		background-size: cover;
 	}
 }

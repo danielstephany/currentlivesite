@@ -9,6 +9,8 @@ var maps = require('gulp-sourcemaps');
 var minifyHTML = require('gulp-htmlmin');
 var cssnano = require('gulp-cssnano');
 var del = require('del');
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer');
 
 gulp.task("minifyHTML", function(){
 	return gulp.src([
@@ -22,6 +24,7 @@ gulp.task("minifyHTML", function(){
 gulp.task('minifyScripts', function() {
 	return gulp.src([
 			'src/js/app.js',
+			'src/js/main.js',
 			'src/js/form.js', 
 			'src/js/insta.js', 
 			'src/js/light.js', 
@@ -39,7 +42,7 @@ gulp.task('compileSass', function() {
 			'src/scss/quiz.scss', 
 			'src/scss/forms.scss'])
 		.pipe(maps.init())
-		.pipe(sass())
+		.pipe(sass()) 
 		.pipe(maps.write('./'))
 		.pipe(gulp.dest('src/css'));
 });
