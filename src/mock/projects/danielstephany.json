@@ -1,0 +1,7 @@
+{
+	"name": "DanielStephany.com",
+	"id": "danielstephany",
+	"img": "img/proGal/danielstephany.svg",
+	"link": "#/#home",
+	"description": "Danielstephany.com is my personal portfolio site that I designed and built from scratch. I built danielstephany.com to be mobile responsive and have recently added some more functionality by using angular.js to allow my project gallery to switch views and dynamically load content."
+}

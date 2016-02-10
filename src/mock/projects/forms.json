@@ -3,5 +3,5 @@
 	"id": "forms",
 	"img": "img/proGal/forms.svg",
 	"link": "forms.html",
-	"description": "to be written"
+	"description": "I did the forms project to get a bit of practice styling forms. I used jQuery to handle the view switching."
 }

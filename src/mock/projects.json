@@ -21,6 +21,11 @@
 		"img": "img/proGal/stephanys-woodworking.svg"
 	},
 	{
+		"name": "DanielStephany.com",
+		"id": "danielstephany",
+		"img": "img/proGal/danielstephany.svg"
+	},
+	{
 		"name": "Quiz App",
 		"id": "quiz-app",
 		"img": "img/proGal/quiz.svg"

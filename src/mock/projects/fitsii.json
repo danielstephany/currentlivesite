@@ -3,5 +3,5 @@
 	"id": "fitsii",
 	"img": "img/proGal/fitsii.svg",
 	"link": "fitsii-min/index.html",
-	"description": "to be writen"
+	"description": "Fitsii is a project that I designed to give myself a bit of practice using angluar.js. Fitsii is a single page web app that uses angulars router to change between different views and set the appropriate controller. I set up a mock database for angular to pull data from so that the information on each view can be dynamically generated using angulars $http service. I also used filtering and ordering in the list views to organize the data on the page. Along with this project I used gulp to handle my tasks and streamline my workflow by having it concat and minimize scripts, compile and minimize Sass, minify html, and place everything in a dist folder for distribution."
 }

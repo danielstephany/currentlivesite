@@ -3,5 +3,5 @@
 	"id": "stephanys-woodworking",
 	"img": "img/proGal/stephanys-woodworking.svg",
 	"link": "http://www.stephanyswoodworking.com",
-	"description": "to be written"
+	"description": "Stephanyswoodworking.com is a moble responsive site that I designed and built to provide basic information about stephanys wordworking and repair and show examples of there work. the main page is a static page that provides information about the company, their services , and a brief bio on the owners. I built a gallery page using jQuery and javascript that pulls photos from their Instagram account and post the picture and the description. I also used a lightbox effect for this gallery built with jQuery."
 }

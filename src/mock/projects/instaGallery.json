@@ -3,5 +3,5 @@
 	"id": "instagallery",
 	"img": "img/proGal/instaGallery.svg",
 	"link": "instagallery.html",
-	"description": "to be written"
+	"description": "InstaGallery is a project that I built to get practice pulling data from an api. In this project I used jQuery to get the data from the Instagram api with and ajax call. Then I used JavaScript to filter the data and populate the gallery. I also put a lightbox effect on the gallery using jQuery."
 }

@@ -3,5 +3,5 @@
 	"id": "quiz-app",
 	"img": "img/proGal/quiz.svg",
 	"link": "quiz.html",
-	"description": "to be written"
+	"description": "The quiz app is an object oriented quiz application that I built using JavaScript. This application uses a question object to build up an array of questions. The questions are then fed into the quiz object which provides the functionality for the quiz and then it all gets wired up to the view."
 }

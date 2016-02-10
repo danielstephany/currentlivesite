@@ -3,5 +3,5 @@
 	"id": "ritualforms",
 	"img": "img/proGal/ritualforms.svg",
 	"link": "http://www.ritualforms.com",
-	"description": "to be writen"
+	"description": "Ritualforms.com is a mobile responsive Portfolio site I designed and built for a local Milwaukee tatoo artist and painter. My client wanted a very simple site that was easy to use, navigate, and post photos of his work on. The photos on this site are pulled from different galleries on flickr that he posts to from his instagram account.  To get the images from flickr I used jQuery to perform an ajax call, then I filtered and posted the photos using javascript. I also added a light box effect that I coded with jQuery."
 }

@@ -21,15 +21,24 @@ gulp.task("minifyHTML", function(){
 	.pipe(gulp.dest("dist/src"))
 });
 
-gulp.task('minifyScripts', function() {
+gulp.task('concatScripts', function() {
 	return gulp.src([
-			'src/js/app.js',
-			'src/js/main.js',
+		'src/js/apps.js',
+		'src/js/mainApp.js'
+		])
+	.pipe(maps.init())
+	.pipe(concat('apps.js'))
+	.pipe(gulp.dest('src/js'));
+});
+
+gulp.task('minifyScripts', ['concatScripts'], function() {
+	return gulp.src([
+			'src/js/apps.js',
 			'src/js/form.js', 
 			'src/js/insta.js', 
 			'src/js/light.js', 
-			'src/js/quiz.js'],
-			{base: './src/'})
+			'src/js/quiz.js']
+			)
 		.pipe(uglify())
 		.pipe(maps.write('./'))
 		.pipe(gulp.dest('dist/src/js'));
@@ -37,7 +46,7 @@ gulp.task('minifyScripts', function() {
 
 gulp.task('compileSass', function() {
 	return gulp.src([
-			'src/scss/main.scss', 
+			'src/scss/style.scss', 
 			'src/scss/instagal.scss', 
 			'src/scss/quiz.scss', 
 			'src/scss/forms.scss'])
@@ -49,7 +58,7 @@ gulp.task('compileSass', function() {
 
 gulp.task('minifyCss',['compileSass'], function(){
 	return gulp.src([
-			'src/css/main.css', 
+			'src/css/style.css', 
 			'src/css/instagal.css', 
 			'src/css/quiz.css', 
 			'src/css/forms.css'])
@@ -72,7 +81,7 @@ gulp.task('build', ['minifyHTML', 'compileSass', 'minifyScripts', 'minifyCss'], 
 });
 
 gulp.task('clean', function(){
-	del(['dist', 'src/css/main.css*']);
+	del(['dist', 'src/css/style.css*']);
 });
 
 gulp.task('default', ['clean'], function() {

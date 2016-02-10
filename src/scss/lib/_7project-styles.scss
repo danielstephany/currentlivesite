@@ -1,11 +1,30 @@
 /* projects section ************************************/
 
 .projects {
+	height: 650px;
+	overflow-y: scroll;
 	background-color: #93bd91;
-	.projects h1 {
-		padding: 50px 5px 10px;
+	&::-webkit-scrollbar {
+	    width: 0;
+	    @media (min-width: 650px){
+	      width: 10px;
+    }
 	}
-}
+	 
+	&::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.3);
+	    background: rgba(255,255,255,0.5); 
+	}
+	 
+	&::-webkit-scrollbar-thumb {
+	    border-radius: 10px;
+	    background: rgba(255,255,255,0.5);
+	    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.5); 
+	}
+		.projects h1 {
+			padding: 50px 5px 10px;
+		}
+	}
 
 .gallery {
 	padding: 20px 0 20px;
