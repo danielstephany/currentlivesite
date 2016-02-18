@@ -1,5 +1,5 @@
 var gallery =  document.getElementById("gallery");
-var nextUrl = "https://api.instagram.com/v1/users/2239880311/media/recent/?access_token;
+var nextUrl = "https://api.instagram.com/v1/users/2239880311/media/recent/?access_token";
 
 var ajax = function(next) {
   $.ajax({
