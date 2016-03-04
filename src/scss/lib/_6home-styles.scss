@@ -3,28 +3,103 @@
 
 .home {
 	position: relative;
-	background: url("../img/banner-small.jpg") no-repeat center;
+	background: url("../img/dan-banner-back-s.jpg") no-repeat center;
 	background-size: auto cover;
+	overflow: hidden;
 	@media #{$media-s}{
-		background: url("../img/banner-m.jpg") no-repeat center;
+		background: url("../img/dan-banner-back-m.jpg") no-repeat center;
 		background-size: cover;			
 	}
 	@media #{$media-l}{
-		background: url("../img/banner-big.jpg") no-repeat center;
+		background: url("../img/dan-banner-back.jpg") no-repeat center;
 		background-size: cover;
+	}
+	.home-overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255,0.4);
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.bike {
+	background: url("../img/dan-banner-bike-s.png") center top;
+	background-size: cover;
+	width: 100%;
+	height: 396px;
+	position: absolute;
+	bottom: -160px;
+	@media #{$media-s}{
+		background: url("../img/dan-banner-bike-m.png") center top;
+		background-size: cover;			
+	}
+	@media #{$media-l}{
+		background: url("../img/dan-banner-bike.png") center top;
+		background-size: cover;
+	}
+
+}
+
+.daniel {
+	background: url("../img/dan-banner-daniel-s.png") center top;
+	background-size: cover;
+	position: absolute;
+	width: 31%;
+	min-width: 150px;
+	height: 800px;
+	bottom: -270px;
+	left: 0px;
+	@media #{$media-s}{
+		background: url("../img/dan-banner-daniel.png") center top;
+		background-size: cover;
+		width: 35%;
+		min-width: 320px;
+		bottom: -240px;
+		left: 0px;		
+	}
+	@media #{$media-l}{
+		left: 100px;
+		bottom: -250px;
 	}
 }
 
 .home-content {
-	padding: 100px 5px 5px;
+	position: absolute;
+	padding: 5px;
+	width: 350px;
+	margin: 0;
+	top: 120px;
+	right: 10px;
+	@media #{$media-s}{
+		top: 150px;
+		right: 8%;	
+	}
+	@media #{$media-l}{
+		top: 150px;
+		right: 15%;
+	}
+
 	h1,
 	h3 {
 		text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+		text-align: right;
 	}
 	h1 {
 		font-size: 2.5em;
+		@media #{$media-l}{
+		font-size: 2.8em;
+	}
 	}
 	h3 {
-		font-size: 1.8em;
+		font-size: 1.5em;
+		@media #{$media-l}{
+		font-size: 1.7;
+	}
 	}
 }

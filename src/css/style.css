@@ -153,7 +153,6 @@ dfn {
  * Known issue: no IE 6/7 normalization.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -405,8 +404,6 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -474,13 +471,14 @@ h3,
 h4,
 p {
   color: #fff;
-  font-weight: 400;
+  font-weight: 100;
   margin: 0;
   padding: 0; }
 
 a {
   color: #e3cfa8;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 0.2s linear; }
 
 a:hover {
   color: #ffe7b9; }
@@ -504,19 +502,20 @@ ul {
   min-height: calc(100vh - 90px); }
 
 .main-container,
+.secondary-container,
 .last-container {
+  padding: 50px 0 0;
   width: 100%;
   text-align: center; }
 
 .main-container {
+  min-height: 800px; }
+
+.secondary-container {
   min-height: 650px; }
 
 .full-container {
   min-height: calc(100vh - 100px); }
-
-.main-container h1,
-.last-container h1 {
-  padding: 50px 5px 5px; }
 
 .last-container {
   min-height: 550px; }
@@ -618,26 +617,96 @@ header {
 *******************************************************************/
 .home {
   position: relative;
-  background: url("../img/banner-small.jpg") no-repeat center;
-  background-size: auto cover; }
+  background: url("../img/dan-banner-back-s.jpg") no-repeat center;
+  background-size: auto cover;
+  overflow: hidden; }
   @media only screen and (min-width: 650px) {
     .home {
-      background: url("../img/banner-m.jpg") no-repeat center;
+      background: url("../img/dan-banner-back-m.jpg") no-repeat center;
       background-size: cover; } }
   @media only screen and (min-width: 950px) {
     .home {
-      background: url("../img/banner-big.jpg") no-repeat center;
+      background: url("../img/dan-banner-back.jpg") no-repeat center;
+      background-size: cover; } }
+  .home .home-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0;
+    padding: 0; }
+
+.bike {
+  background: url("../img/dan-banner-bike-s.png") center top;
+  background-size: cover;
+  width: 100%;
+  height: 396px;
+  position: absolute;
+  bottom: -160px; }
+  @media only screen and (min-width: 650px) {
+    .bike {
+      background: url("../img/dan-banner-bike-m.png") center top;
+      background-size: cover; } }
+  @media only screen and (min-width: 950px) {
+    .bike {
+      background: url("../img/dan-banner-bike.png") center top;
       background-size: cover; } }
 
+.daniel {
+  background: url("../img/dan-banner-daniel-s.png") center top;
+  background-size: cover;
+  position: absolute;
+  width: 31%;
+  min-width: 150px;
+  height: 800px;
+  bottom: -270px;
+  left: 0px; }
+  @media only screen and (min-width: 650px) {
+    .daniel {
+      background: url("../img/dan-banner-daniel.png") center top;
+      background-size: cover;
+      width: 35%;
+      min-width: 320px;
+      bottom: -240px;
+      left: 0px; } }
+  @media only screen and (min-width: 950px) {
+    .daniel {
+      left: 100px;
+      bottom: -250px; } }
+
 .home-content {
-  padding: 100px 5px 5px; }
+  position: absolute;
+  padding: 5px;
+  width: 350px;
+  margin: 0;
+  top: 120px;
+  right: 10px; }
+  @media only screen and (min-width: 650px) {
+    .home-content {
+      top: 150px;
+      right: 8%; } }
+  @media only screen and (min-width: 950px) {
+    .home-content {
+      top: 150px;
+      right: 15%; } }
   .home-content h1,
   .home-content h3 {
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9); }
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+    text-align: right; }
   .home-content h1 {
     font-size: 2.5em; }
+    @media only screen and (min-width: 950px) {
+      .home-content h1 {
+        font-size: 2.8em; } }
   .home-content h3 {
-    font-size: 1.8em; }
+    font-size: 1.5em; }
+    @media only screen and (min-width: 950px) {
+      .home-content h3 {
+        font-size: 1.7; } }
 
 /* projects section ************************************/
 .projects {
@@ -664,17 +733,20 @@ header {
   text-align: left; }
   .gallery .gallery-item {
     display: inline-block;
-    width: 47%;
+    width: 31%;
     margin: 1%;
-    padding: 0; }
+    padding: 0;
+    transition: all 0.3s linear; }
+    .gallery .gallery-item:hover {
+      box-shadow: 0 0 15px #fff; }
     @media only screen and (min-width: 650px) {
       .gallery .gallery-item {
-        width: 29.5%;
+        width: 22%;
         margin: 1.5%; } }
 
 /* project discription container ***********************/
 .project-description {
-  padding: 100px 5px 5px; }
+  padding: 50px 5px 5px; }
   .project-description h1 {
     padding: 10px 0 20px; }
   .project-description .img-container {
@@ -732,11 +804,7 @@ header {
 /* About ***********************************************************
 *******************************************************************/
 .about {
-  background-color: #91bda7;
-  padding: 10px; }
-  @media only screen and (min-width: 650px) {
-    .about {
-      padding: 0%; } }
+  background-color: #91bda7; }
 
 .about-content {
   display: inline-block;

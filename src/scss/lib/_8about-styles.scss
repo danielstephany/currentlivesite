@@ -3,10 +3,6 @@
 
 .about {
 	background-color: #91bda7;
-	padding: 10px;
-	@media #{$media-s}{
-		padding: 0%;
-	}
 }
 
 .about-content {

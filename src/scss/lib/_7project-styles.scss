@@ -31,11 +31,15 @@
 	text-align: left;
 	.gallery-item {
 		display: inline-block;
-		width: 47%;
+		width: 31%;
 		margin: 1%;
 		padding: 0;
+		transition: all 0.3s linear;
+		&:hover {
+			box-shadow: 0 0 15px #fff;
+		}
 		@media #{$media-s}{
-			width: 29.5%;
+			width: 22%;
 			margin: 1.5%;
 		}
 	}
@@ -44,7 +48,7 @@
 /* project discription container ***********************/
 
 .project-description {
-	padding: 100px 5px 5px;
+	padding: 50px 5px 5px;
 	h1{
 		padding: 10px 0 20px;
 	}

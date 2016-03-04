@@ -3,5 +3,5 @@
 	"id": "mud-creek",
 	"img":"img/proGal/mud-creek-logo.svg",
 	"link": "mud-creek-min/index.html",
-	"description": "I built the Mud Creek Coffee project to practice taking a non-responsive site and redesigning it into a modern web app. My goal with this project was to make a modular design so that i could have many of the same sections reusing the same bits of code therefor making this site more easily scaleable in the future. With This project I used Scss to organize and my css. The sliding nav that is used in mobile views is built with jQuery."
+	"description": "I built the Mud Creek Coffee project to practice taking a non-responsive site and redesigning it into a modern web app. My goal with this project was to make a modular design so that i could have many of the same sections reusing the same bits of code making this site more scaleable in the future. With This project I used Scss to organize and my css. The sliding nav that is used in mobile views is built with jQuery."
 }

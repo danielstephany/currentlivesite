@@ -10,7 +10,8 @@ var minifyHTML = require('gulp-htmlmin');
 var cssnano = require('gulp-cssnano');
 var del = require('del');
 var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
+var autoprefixer = require('gulp-autoprefixer');
+var browserSync = require('browser-sync');
 
 gulp.task("minifyHTML", function(){
 	return gulp.src([
@@ -23,7 +24,7 @@ gulp.task("minifyHTML", function(){
 
 gulp.task('concatScripts', function() {
 	return gulp.src([
-		'src/js/apps.js',
+		'src/js/main.js',
 		'src/js/mainApp.js'
 		])
 	.pipe(maps.init())
@@ -52,8 +53,10 @@ gulp.task('compileSass', function() {
 			'src/scss/forms.scss'])
 		.pipe(maps.init())
 		.pipe(sass()) 
+		.pipe(autoprefixer({browsers:['last 2 versions']}))
 		.pipe(maps.write('./'))
-		.pipe(gulp.dest('src/css'));
+		.pipe(gulp.dest('src/css'))
+		.pipe(browserSync.stream());
 });
 
 gulp.task('minifyCss',['compileSass'], function(){
@@ -70,6 +73,9 @@ gulp.task('minifyCss',['compileSass'], function(){
 
 
 gulp.task('watchFiles', function() {
+	browserSync.init({
+        server: "./src/"
+    });
 	gulp.watch('src/scss/**/*.scss', ['compileSass']);
 });
 

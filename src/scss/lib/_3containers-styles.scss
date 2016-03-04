@@ -9,21 +9,22 @@
 }
 
 .main-container,
+.secondary-container,
 .last-container {
+	padding: 50px 0 0;
 	width: 100%;
 	text-align: center;
 }
 .main-container {
+	min-height: 800px;
+}
+
+.secondary-container {
 	min-height: 650px;
 }
 
 .full-container {
 	min-height: calc(100vh - 100px);
-}
-
-.main-container h1,
-.last-container h1 {
-	padding: 50px 5px 5px;
 }
 
 .last-container {
