@@ -1,0 +1,7 @@
+{
+	"name": "Nest Store clone",
+	"id": "nest",
+	"img": "img/proGal/nest.svg",
+	"link": "nest-min/index.html",
+	"description": "The Nest Store clone is a fully responsive copy of the Nest Store home page that does not link to other pages. I built this to sharpen my sass/css skills by studying and recreating the techniques of a seasoned developer."
+}
